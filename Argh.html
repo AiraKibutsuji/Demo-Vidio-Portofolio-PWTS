@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Argh</title>
+  <link rel="stylesheet" href="Argh.css" />
+  <script defer src="Argh.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">MyPortfolio</div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="fade-in">
+      <h2>About Me</h2>
+      <p>Seorang pengembang web yang suka menciptakan hal-hal estetis dan fungsional. Seorang yang suka menggambar dan suka ketenangan walau ada saja yang mmembuat kerusuhan.</p>
+    </section>
+
+    <section id="skills" class="fade-in">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />HTML</div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />CSS</div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" />JavaScript</div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />GitHub</div>
+        <div class="skill"><img src="https://cdn-icons-png.flaticon.com/512/29/29302.png" alt="Book" />Books</div>
+        <div class="skill"><img src="https://cdn-icons-png.flaticon.com/512/851/851171.png" alt="Game" />Games</div>
+      </div>
+    </section>
+
+    <section id="projects" class="fade-in">
+      <h2>Projects</h2>
+      <p><a href="#">Membuat Portofolio, proyek yang dibangun mengunakan Cinta, Kasih sayang, dan Imajinani.</a> | <a href="#">Mampu menyelesaikan Tugas yang di berikan. menghapus dan menandai tugas, walau hasil terlihat biasa saja.</a></p>
+    </section>
+
+    <section id="contact" class="fade-in">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+
+        <label for="message">Pesan:</label>
+        <textarea id="message" rows="4" required></textarea>
+
+        <button type="submit">Kirim</button>
+        <p class="success-msg" id="success-message"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Luna Aira Q
+  </footer>
+</body>
+</html>
